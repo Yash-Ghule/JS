@@ -56,11 +56,11 @@ const loggedinFromGoogle = false
 const loggedinFromEmail = true
 
 
-// if(userLoggedIn && debitcard && 2==3){ // for checking multiple AND conditions
+// if(userLoggedIn && debitcard && 2==3){ // for checking multiple AND conditions, here all conditions should be true
 //     console.log("Allowed to shop");   
 // }
 
-if(loggedinFromGoogle || loggedinFromEmail){ // for checking multiple OR conditions
+if(loggedinFromGoogle || loggedinFromEmail){ // for checking multiple OR conditions, here minimum one condition should be true
     console.log("User logged in");   
 }
 
